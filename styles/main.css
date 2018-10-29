@@ -515,7 +515,7 @@ textarea {
 }
 
 .f-socials__link--vk {
-  background: url("images/icons/vk.svg");
+  background: url("../images/icons/vk.svg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 27px;
@@ -524,19 +524,19 @@ textarea {
 }
 
 .f-socials__link--fb {
-  background: url("images/icons/fb.svg");
+  background: url("../images/icons/fb.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .f-socials__link--tw {
-  background: url("images/icons/twitter.svg");
+  background: url("../images/icons/twitter.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .f-socials__link--skype {
-  background: url("images/icons/skype.svg");
+  background: url("../images/icons/skype.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
