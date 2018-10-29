@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-b-webfont.woff2') format('woff2'),
+         url('../fonts/Ubuntu/ubuntu-b-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-light-webfont.woff2') format('woff2'),
+         url('../fonts/Ubuntu/ubuntu-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/Ubuntu/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Ubuntu/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: medium;
+    font-style: normal;
+}

@@ -1,0 +1,174 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'ubuntu', Helvetica, sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: normal;
+}
+:root {
+    font-size: 16px;
+    @include laptop {
+        font-size: 15px;
+    }
+    @include tablet {
+        font-size: 14px; 
+    }
+    @include phone {
+        font-size: 13px;
+    }
+}
+input, textarea {
+    box-sizing: border-box;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1;
+}
+.logo {
+    height: 50px;
+    @include tablet() {
+        height: 70px;
+    }
+    &-link {
+        display: block;
+        overflow: hidden;
+        margin-bottom: 20px;
+        &--none {
+            @include tablet() {
+                display: none;
+            }
+        }
+    }
+    &--footer {
+        width: 150px;
+        display: block;
+        margin: -55px 0;
+    }
+}
+.section {
+    padding: 80px 20%;
+    @include laptop() {
+        padding: 80px 10%;
+    }
+    @include tablet() {
+        padding: 80px 60px;
+    }
+    @include phone() {
+        padding: 60px 30px;
+    }
+    &-install, &-insthtml,&-advant {
+        background-color: #eff4f4;
+    }
+    &-integr {
+        padding-right: 15%;
+        @include laptop() {
+            padding-right: 0;
+        } 
+        @include tablet() {
+            padding-right: 60px;
+        }
+        @include phone() {
+            padding-right: 30px;
+        }
+}
+}
+.button {
+    min-width: 268px;
+    border-radius: 24px;
+    background-color: #2cd3b8;
+    padding: 16px 20px;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #2cd3b8;
+    margin-right: 20px;
+    @include tablet() {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 16px 0;
+    }
+    &:last-child {
+        margin-right: 0;
+        @include tablet() {
+            margin-bottom: 0;
+        }
+    }
+    &--price {
+        background: transparent;
+        border: 1px solid #3b4269;
+        color: #3b4269;
+        &:hover {
+            background-color: #3b4269;
+            color: white;
+        }
+    }
+    &--test {
+        background: #3b4269;
+        border-color: #3b4269;
+    }
+}
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: 0.9px;
+    color: #3b4269;
+    &--mb30 {
+        margin-bottom: 30px;
+    }
+}
+.desc {
+    margin-bottom: 50px;
+    color: #74757b;
+    line-height: 24px;
+    &--mb--none {
+        margin-bottom: 0;
+    }
+}
+.link {
+    text-decoration: underline;
+    color: #2cd3b8;
+    letter-spacing: 0.65px;
+    font-size: 24px;
+    line-height: 1.42;
+    @include tablet() {
+        font-size: 20px;
+    }
+    @include phone() {
+        font-size: 18px;
+    }
+    &--integr {
+        font-size: 16px;
+        @include tablet() {
+            font-size: 15px;
+        }
+        @include phone() {
+            font-size: 14px;
+        }
+    }
+}

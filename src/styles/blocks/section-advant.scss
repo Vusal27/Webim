@@ -1,0 +1,18 @@
+.advant__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #3b4269;
+}
+.advant__icon {
+    margin-right: 30px;
+    @include tablet() {
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+    }
+}
+.advant__desc {
+    line-height: 24px;
+    display: inline-block;
+}

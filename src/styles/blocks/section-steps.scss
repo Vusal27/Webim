@@ -1,0 +1,39 @@
+
+.steps {
+    display: flex;
+    &__icon {
+        height: 50px;
+        width: 50px;
+        display: block;
+        margin-bottom: 40px;
+        z-index: 10;
+        position: relative;
+    }
+    &__item {
+        margin-right: 100px;
+        position: relative;
+        padding-top: 50px;
+        @include tablet() {
+            padding-top: 20px;
+        }
+        @include phone() {
+            margin-right: 60px;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__num {
+        position: absolute;
+        font-size: 150px;
+        font-weight: 600;
+        color: #e9e9ed;
+        top: 0;
+        left: -40px;
+        line-height: 0.8;
+        @include tablet() {
+            font-size: 100px;
+            left: -30px;
+        }
+    }
+}

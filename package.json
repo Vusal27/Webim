@@ -1,0 +1,35 @@
+{
+  "name": "webim",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.html",
+  "scripts": {
+    "test": "webim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vusal27/Webim-test.git"
+  },
+  "keywords": [
+    "webim"
+  ],
+  "author": "Gakhramanov Vusal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vusal27/Webim-test/issues"
+  },
+  "homepage": "https://github.com/Vusal27/Webim-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-gh-pages": "^0.5.4",
+    "normalize.css": "^8.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+.instapp__item {
+    padding-left: 35px;
+}
+.instapp__link {
+    position: relative;
+    margin-bottom: 10px;
+    &::before {
+        content: "";
+        display: block;
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        position: absolute;
+        left: -35px;
+        top: 50%;
+        transform: translate(0, -50%);
+        background: #3b4269;
+    }
+}

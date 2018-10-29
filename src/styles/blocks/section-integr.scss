@@ -1,0 +1,36 @@
+.integr__icon {
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+}
+.integr__list {
+    display: flex;
+    flex-wrap: wrap;
+    @include tablet() {
+        flex-direction: column;
+    }
+}
+.integr__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 30%;
+    margin-right: 5px;
+    &:last-child {
+        margin: 0;
+    }
+    @include tablet() {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+.integr__desc {
+    margin-bottom: 50px;
+    color: #3b4269;
+    line-height: 24px;
+    font-size: 18px;
+    width: 75%;
+    @include tablet() {
+        width: 100%;
+    }
+}

@@ -1,0 +1,111 @@
+.footer {
+    min-height: 170px;
+    background-color: #3b4269;
+    padding: 60px 70px;
+    display: flex;
+    @include laptop() {
+        padding: 40px 10px;
+    }
+    @include tablet() {
+        padding: 0 80px;
+        align-items: center;
+        min-height: 160px;
+    }
+    &__logo {
+        color: #acb1c2;
+        width: 20%;
+        margin-right: 2%;
+        min-width: 155px;
+        @include tablet() {
+            width: auto;
+        }
+    }
+    &__copyright {
+        @include tablet() {
+            font-size: 18px;
+        }
+    }
+    &__number-global {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    &__number-local {
+        margin-bottom: 25px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__ng-icon {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+    &__ng-link {
+        color: white;
+        font-size: 28px;
+    }
+    &__nl-link {
+        color: white;
+        margin-bottom: 5px;
+        display: block;
+        font-size: 20px;
+    }
+    &__nl-adress {
+        color: #acb1c2;
+    }
+    &__contacts {
+        width: 78%;
+        display: flex;
+        justify-content: space-between;
+        @include tablet() {
+            display: none;
+        }
+    }
+    &__email {
+        display: block;
+        color: white;
+        margin-bottom: 5px;
+    }
+    &__workTime {
+        color: #acb1c2;
+        margin: 10px 0 20px;
+    }
+}
+.f-socials__link {
+    display: block;
+    height: 20px;
+    width: 20px;
+    &--vk {
+        background: url("./images/icons/vk.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 27px;
+        width: 27px;
+        background-position: center;
+    }
+    &--fb {
+        background: url("./images/icons/fb.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &--tw {
+        background: url("./images/icons/twitter.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &--skype {
+        background: url("./images/icons/skype.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.f-socials__list {
+    display: flex;
+    align-items: center;
+}
+.f-socials__item {
+    margin-right: 20px;
+    :last-child {
+        margin-right: 0;
+    }
+}

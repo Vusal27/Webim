@@ -1,0 +1,6 @@
+.buttons {
+    display: flex;
+    @include tablet() {
+        flex-direction: column;
+    }
+}
