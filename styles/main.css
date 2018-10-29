@@ -182,14 +182,14 @@ textarea {
 .button {
   min-width: 216px;
   border-radius: 24px;
-  background-color: #0da088;
+  background-color: #2cd3b8;
   padding: 16px 20px;
   text-transform: uppercase;
   color: white;
   display: block;
   text-align: center;
   font-weight: 700;
-  border: 1px solid #0da088;
+  border: 1px solid #2cd3b8;
   margin-right: 20px;
   font-size: 14px;
 }
@@ -644,7 +644,7 @@ textarea {
 .nav__burger-el {
   height: 5px;
   width: 50px;
-  background: #0da088;
+  background: #2cd3b8;
   border-radius: 5px;
   position: relative;
 }
@@ -654,7 +654,7 @@ textarea {
   display: block;
   height: 5px;
   width: 50px;
-  background: #0da088;
+  background: #2cd3b8;
   position: absolute;
   border-radius: 5px;
   top: -15px;
@@ -667,7 +667,7 @@ textarea {
   display: block;
   height: 5px;
   width: 50px;
-  background: #0da088;
+  background: #2cd3b8;
   position: absolute;
   border-radius: 5px;
   top: 15px;
@@ -922,7 +922,7 @@ textarea {
 .chat {
   height: 50px;
   width: 50px;
-  background: #0da088;
+  background: #2cd3b8;
   border-radius: 50%;
   position: fixed;
   bottom: 35px;
