@@ -180,17 +180,18 @@ textarea {
 }
 
 .button {
-  min-width: 268px;
+  min-width: 216px;
   border-radius: 24px;
-  background-color: #2cd3b8;
+  background-color: #0da088;
   padding: 16px 20px;
   text-transform: uppercase;
   color: white;
   display: block;
   text-align: center;
-  font-weight: 600;
-  border: 1px solid #2cd3b8;
+  font-weight: 700;
+  border: 1px solid #0da088;
   margin-right: 20px;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
@@ -199,6 +200,7 @@ textarea {
     margin-bottom: 30px;
     width: 100%;
     padding: 16px 0;
+    font-size: 24px;
   }
 }
 
@@ -230,10 +232,27 @@ textarea {
 
 .title {
   text-transform: uppercase;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   margin-bottom: 40px;
   letter-spacing: 0.9px;
   color: #3b4269;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+.title--main {
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  .title--main {
+    font-size: 48px;
+  }
 }
 
 .title--mb30 {
@@ -246,13 +265,25 @@ textarea {
   line-height: 24px;
 }
 
+@media (max-width: 768px) {
+  .desc {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .desc--line-height {
+    line-height: 36px;
+  }
+}
+
 .desc--mb--none {
   margin-bottom: 0;
 }
 
 .link {
   text-decoration: underline;
-  color: #2cd3b8;
+  color: #0da088;
   letter-spacing: 0.65px;
   font-size: 24px;
   line-height: 1.42;
@@ -260,29 +291,23 @@ textarea {
 
 @media (max-width: 768px) {
   .link {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
-@media (max-width: 480px) {
-  .link {
-    font-size: 18px;
-  }
+.link--font-size {
+  font-size: 18px;
 }
 
-.link--integr {
-  font-size: 16px;
+@media (max-width: 768px) {
+  .link--font-size {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 768px) {
   .link--integr {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .link--integr {
-    font-size: 14px;
+    font-size: 24px;
   }
 }
 
@@ -619,7 +644,7 @@ textarea {
 .nav__burger-el {
   height: 5px;
   width: 50px;
-  background: #2cd3b8;
+  background: #0da088;
   border-radius: 5px;
   position: relative;
 }
@@ -629,7 +654,7 @@ textarea {
   display: block;
   height: 5px;
   width: 50px;
-  background: #2cd3b8;
+  background: #0da088;
   position: absolute;
   border-radius: 5px;
   top: -15px;
@@ -642,7 +667,7 @@ textarea {
   display: block;
   height: 5px;
   width: 50px;
-  background: #2cd3b8;
+  background: #0da088;
   position: absolute;
   border-radius: 5px;
   top: 15px;
@@ -696,6 +721,13 @@ textarea {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .steps__icon {
+    height: 72px;
+    width: 72px;
+  }
+}
+
 .steps__item {
   margin-right: 100px;
   position: relative;
@@ -705,12 +737,13 @@ textarea {
 @media (max-width: 768px) {
   .steps__item {
     padding-top: 20px;
+    flex: 1;
   }
 }
 
 @media (max-width: 480px) {
   .steps__item {
-    margin-right: 60px;
+    margin-right: 40px;
   }
 }
 
@@ -730,7 +763,12 @@ textarea {
 
 @media (max-width: 768px) {
   .steps__num {
-    font-size: 100px;
+    left: -50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .steps__num {
     left: -30px;
   }
 }
@@ -804,14 +842,25 @@ textarea {
   }
 }
 
+.advant__step {
+  font-size: 24px;
+}
+
 .advant__desc {
+  font-size: 18px;
   line-height: 24px;
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .adapt__desc {
+    font-size: 24px;
+  }
+}
+
 .integr__icon {
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   margin-right: 20px;
 }
 
@@ -866,13 +915,14 @@ textarea {
 @media (max-width: 768px) {
   .integr__desc {
     width: 100%;
+    font-size: 24px;
   }
 }
 
 .chat {
   height: 50px;
   width: 50px;
-  background: #2cd3b8;
+  background: #0da088;
   border-radius: 50%;
   position: fixed;
   bottom: 35px;
